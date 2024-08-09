@@ -3,4 +3,4 @@
 # cd app 으로 이동해준다.
 
 # 서버 실행
-# uvicorn main:app --reload
+# uvicorn app.main:app --reload

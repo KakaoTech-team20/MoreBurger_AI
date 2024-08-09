@@ -9,3 +9,30 @@ GET http://127.0.0.1:8000/hello/User
 Accept: application/json
 
 ###
+# 추천 시스템 테스트
+
+POST http://127.0.0.1:8000/api/recommend
+Content-Type: application/json
+
+{
+  "UserID": 1,
+  "Gender": "Male",
+  "Age_Group": "20-29",
+  "Spicy_Preference": "Yes",
+  "Allergies": "None",
+  "Consumption_Size": "Large",
+  "Previous_Orders": [1, 2, 3]
+}
+
+###
+
+# 챗봇 엔드포인트 테스트
+
+POST http://127.0.0.1:8000/api/chatbot
+Content-Type: application/json
+
+{
+  "message": "Hello, how are you?"
+}
+
+###
