@@ -5,7 +5,14 @@
 ## 요구 사항
 
 - Python 3.10.x
+- Git
 
+## 프로젝트 클론
+먼저, 프로젝트를 로컬 시스템에 클론합니다:
+```
+git clone https://github.com/KakaoTech-team20/MoreBurger_AI.git
+cd MoreBurger_AI
+```
 ## 종속성
 
 ```
