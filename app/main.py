@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from routers import chatbot, recommend
+from app.routers import chatbot, recommend
 app = FastAPI()
 app.include_router(chatbot.router)
 app.include_router(recommend.router)
