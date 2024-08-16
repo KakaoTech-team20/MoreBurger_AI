@@ -7,8 +7,8 @@ import os
 
 router = APIRouter()
 
-burgers = load_and_preprocess_data('data/burgers_data.csv')
-users = load_user_data('data/user_data.csv')
+burgers = load_and_preprocess_data('app/data/burgers_data.csv')
+users = load_user_data('app/data/user_data.csv')
 
 @router.get("/recommend/")
 async def index():
