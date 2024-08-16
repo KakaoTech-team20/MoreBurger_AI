@@ -22,8 +22,11 @@
      sudo apt update
      sudo apt install python3.10
      ```
-
-3. 가상 환경을 생성하고 활성화합니다:
+3. (Linux 사용자만 해당) venv 모듈을 설치합니다:
+   ```
+   sudo apt install python3.10-venv
+   ```
+5. 가상 환경을 생성하고 활성화합니다:
    - Windows:
      ```
      python -m venv venv
@@ -35,7 +38,7 @@
      source venv/bin/activate
      ```
 
-4. 필요한 패키지를 설치합니다:
+6. 필요한 패키지를 설치합니다:
    ```
    pip install -r requirements.txt
    ```
