@@ -7,12 +7,39 @@
 - Python 3.10.x
 - Git
 
-## 프로젝트 클론
-먼저, 프로젝트를 로컬 시스템에 클론합니다:
-```
-git clone https://github.com/KakaoTech-team20/MoreBurger_AI.git
-cd MoreBurger_AI
-```
+## 프로젝트 설치
+
+1. 프로젝트를 로컬 시스템에 클론합니다:
+   ```
+   git clone https://github.com/KakaoTech-team20/MoreBurger_AI.git
+   cd MoreBurger_AI
+   ```
+
+2. Python 3.10.x를 설치합니다:
+   - Windows: [Python 공식 웹사이트](https://www.python.org/downloads/)에서 다운로드
+   - Linux:
+     ```
+     sudo apt update
+     sudo apt install python3.10
+     ```
+
+3. 가상 환경을 생성하고 활성화합니다:
+   - Windows:
+     ```
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+   - Linux:
+     ```
+     python3.10 -m venv venv
+     source venv/bin/activate
+     ```
+
+4. 필요한 패키지를 설치합니다:
+   ```
+   pip install -r requirements.txt
+   ```
+
 ## 종속성
 
 ```
@@ -47,64 +74,6 @@ typing_extensions==4.12.2
 tzdata==2024.1
 uvicorn==0.30.6
 ```
-
-## 설치 방법
-
-### Windows
-
-1. Python 3.10.4를 설치합니다. [Python 공식 웹사이트](https://www.python.org/downloads/release/python-3104/)에서 다운로드할 수 있습니다.
-
-2. 프로젝트 폴더를 생성하고 그 폴더로 이동합니다:
-   ```
-   mkdir moreburger_ai
-   cd moreburger_ai
-   ```
-
-3. 가상 환경을 생성하고 활성화합니다:
-   ```
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-
-4. 필요한 패키지를 설치합니다:
-   ```
-   pip install -r requirements.txt
-   ```
-
-### Linux
-
-1. Python 3.10을 설치합니다:
-   ```
-   sudo apt update
-   sudo apt install python3.10
-   ```
-
-2. 프로젝트 폴더를 생성하고 그 폴더로 이동합니다:
-   ```
-   mkdir moreburger_ai
-   cd moreburger_ai
-   ```
-
-3. 가상 환경을 생성하고 활성화합니다:
-   ```
-   python3.10 -m venv venv
-   source venv/bin/activate
-   ```
-
-4. 필요한 패키지를 설치합니다:
-   ```
-   pip install -r requirements.txt
-   ```
-
-## 종속성 설치
-
-프로젝트의 모든 종속성을 설치하려면 다음 명령어를 실행하세요:
-
-```
-pip install -r requirements.txt
-```
-
-이 명령어는 `requirements.txt` 파일에 명시된 모든 패키지와 그 버전을 설치합니다.
 
 ## 실행 방법
 
