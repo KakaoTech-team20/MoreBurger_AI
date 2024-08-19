@@ -43,61 +43,6 @@
    pip install -r requirements.txt
    ```
 
-## 종속성
-
-```
-annotated-types
-anyio
-asgiref
-Bottleneck
-certifi
-charset-normalizer
-click
-colorama
-distro
-exceptiongroup
-fastapi
-h11
-httpcore
-httpx
-idna
-image
-intel-cmplr-lib-ur
-intel-openmp
-jiter
-joblib
-mkl
-mkl-fft
-mkl-random
-mkl-service
-numexpr
-numpy
-openai
-pandas
-pillow
-pip
-pydantic
-pydantic-core
-python-dateutil
-pytz
-rfc3986
-scikit-learn
-scipy
-setuptools
-six
-sniffio
-sqlparse
-starlette
-tbb
-threadpoolctl
-tqdm
-typing_extensions
-tzdata
-uvicorn
-vc
-wheel
-```
-
 ## 실행 방법
 
 1. 가상 환경이 활성화되어 있는지 확인합니다.
