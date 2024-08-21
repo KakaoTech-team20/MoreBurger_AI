@@ -30,7 +30,7 @@ burgers = load_and_preprocess_data(burgers_path)
 users = load_user_data(users_path)
 
 # 추천 결과 반환 API 엔드포인트 정의
-@router.post("/recommend/")
+@router.post("/recommend")
 async def recommend(user_preferences: UserPreferences):
     try:
         # 사용자의 데이터를 DataFrame 형식으로 변환
