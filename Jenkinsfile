@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REPO = 'KakaoTech-team20/MoreBurger_AI'
-        ECR_REPO = credentials('ecr_base_address')
+        ECR_REPO = 'ecr_ai'
         ECR_CREDENTIALS_ID = 'ecr:ap-northeast-2:ECR_IAM_moreburger'
         SSH_CREDENTIALS_ID = 'EC2_ssh_key'
     }
@@ -29,12 +29,13 @@ pipeline {
             steps {
                 script {
                     // ECR에 Docker 이미지를 푸시하는 단계
-                    docker.withRegistry("https://${ECR_REPO}/back_ai", "$ECR_CREDENTIALS_ID") {
+                    docker.withRegistry("$ECR_REPO", "$ECR_CREDENTIALS_ID") {
                         dockerImage.push('latest')
                     }
                 }
             }
         }
+        
         stage('Deploy to EC2') {
             steps {
                 withCredentials([string(credentialsId: 'EC2_SSH_fastapi', variable: 'EC2_INSTANCE_IP')]) {
