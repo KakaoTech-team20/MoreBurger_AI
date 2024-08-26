@@ -3,8 +3,9 @@ pipeline {
 
     environment {
         REPO = 'KakaoTech-team20/MoreBurger_AI'
-        ECR_REPO = 'ecr_base_address/back_ai'
+        
         ECR_CREDENTIALS_ID = 'ecr:ap-northeast-2:ECR_IAM_moreburger'
+        ECR_REPO = credentials('ecr_base_address/back_ai')
         SSH_CREDENTIALS_ID = 'EC2_ssh_key'
     }
 
