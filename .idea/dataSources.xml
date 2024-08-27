@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="moreburger_database@moreburger-database.cz0oi80og7ce.ap-northeast-2.rds.amazonaws.com" uuid="ff5b7496-b4c4-4bb8-a01b-55245a64e446">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://moreburger-database.cz0oi80og7ce.ap-northeast-2.rds.amazonaws.com:3306/moreburger_database</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
