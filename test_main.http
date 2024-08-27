@@ -32,7 +32,7 @@ POST http://127.0.0.1:8000/api/chatbot
 Content-Type: application/json
 
 {
-  "message": "Hello, how are you?"
+  "message": "너는 무엇을 하는 챗봇이니?"
 }
 
 ###
