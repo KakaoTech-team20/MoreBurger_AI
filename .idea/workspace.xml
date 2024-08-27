@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05b4fa1d-b1c6-4098-938b-5e9b799b4f6b" name="변경" comment="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가">
+      <change beforePath="$PROJECT_DIR$/app/model/recommend_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/recommend_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/recommend.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/recommend.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;whdms2008&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KakaoTech-team20/MoreBurger_AI.git&quot;,
+    &quot;accountId&quot;: &quot;8c10e270-7c66-4a6e-a7f1-395e389eafe5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lEPTewo8UJhfKINmCmHndniUE4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP 요청.generated-requests | #7.executor": "Run",
+    "HTTP 요청.test_main | #4.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "andrew",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="HTTP 요청.generated-requests | #7">
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" index="4" requestIdentifier="#4" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MoreBurger_AI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/model/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.generated-requests | #7" />
+        <item itemvalue="HTTP 요청.test_main | #4" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="05b4fa1d-b1c6-4098-938b-5e9b799b4f6b" name="변경" comment="" />
+      <created>1724742271734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724742271734</updated>
+      <workItem from="1724742272796" duration="561000" />
+      <workItem from="1724744127000" duration="8859000" />
+    </task>
+    <task id="LOCAL-00001" summary="💄 style: app 폴더 하위에 있는 models 제거">
+      <option name="closed" value="true" />
+      <created>1724742408162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724742408162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="✨ feat: RDS dataloader 모듈 생성">
+      <option name="closed" value="true" />
+      <created>1724749074021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724749074021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="✨ feat: rds_dataloader의 검색결과 DataFrame 형태로 변경">
+      <option name="closed" value="true" />
+      <created>1724750657209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724750657209</updated>
+    </task>
+    <task id="LOCAL-00004" summary="💄 style: get_user_by_id의 return type을 pd.DataFrame 에서 pd.Series로 변경&#10;&#10;유저의 경우 1개의 결괏값만을 필요로 하기 때문에 DataFrame일 이유가 없음.">
+      <option name="closed" value="true" />
+      <created>1724751458272</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724751458272</updated>
+    </task>
+    <task id="LOCAL-00005" summary="✨ feat: 추천 기능을 RDS 기반으로 동작하도록 구현">
+      <option name="closed" value="true" />
+      <created>1724752797483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724752797483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가">
+      <option name="closed" value="true" />
+      <created>1724752902870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724752902870</updated>
+    </task>
+    <task id="LOCAL-00007" summary="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가">
+      <option name="closed" value="true" />
+      <created>1724753043842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724753043842</updated>
+    </task>
+    <task id="LOCAL-00008" summary="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가">
+      <option name="closed" value="true" />
+      <created>1724753134911</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724753134912</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="andrew" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" style: app 폴더 하위에 있는 models 제거" />
+    <MESSAGE value=" style: app 폴더 하위에 있는 models 제거" />
+    <MESSAGE value="✨ feat: RDS dataloader 모듈 생성" />
+    <MESSAGE value="✨ feat: rds_dataloader의 검색결과 DataFrame 형태로 변경" />
+    <MESSAGE value=" style: get_user_by_id의 return type을 pd.DataFrame 에서 pd.Series로 변경&#10;&#10;유저의 경우 1개의 결괏값만을 필요로 하기 때문에 DataFrame일 이유가 없음." />
+    <MESSAGE value="✨ feat: 추천 기능을 RDS 기반으로 동작하도록 구현" />
+    <MESSAGE value="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ feat: RDS dataloader에서 특정 사용자(ID)의 order 주문을 호출하는 함수 추가" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MoreBurger_AI$test.coverage" NAME="test 커버리지 결과" MODIFIED="1724747697389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/model" />
+  </component>
+</project>
