@@ -8,6 +8,7 @@ router = APIRouter()
 class ChatRequest(BaseModel):
     message: str
 
+<<<<<<< HEAD
 @router.post("/chatbot")
 async def chatbot(chat_request: ChatRequest):
     try:
@@ -17,3 +18,10 @@ async def chatbot(chat_request: ChatRequest):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+=======
+
+# chatbot andrew
+@router.get("/chatbot/")
+async def get_recommendation():
+    return {"status": 200, "items": ["item1", "item2", "item3"]}
+>>>>>>> origin/andrew

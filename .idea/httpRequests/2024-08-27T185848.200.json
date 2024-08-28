@@ -1,0 +1,112 @@
+[
+  {
+    "id": 20,
+    "name": "더블리아미라클 Ⅱ",
+    "price": 6700,
+    "calory": 520,
+    "weight": 245,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999999522338
+  },
+  {
+    "id": 17,
+    "name": "사각새우더블버거",
+    "price": 5700,
+    "calory": 556,
+    "weight": 208,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999978179819
+  },
+  {
+    "id": 2,
+    "name": "오징어 얼라이브 버거(갈릭맛)",
+    "price": 5500,
+    "calory": 502,
+    "weight": 202,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999856064068
+  },
+  {
+    "id": 41,
+    "name": "고구마 머핀 버거",
+    "price": 4900,
+    "calory": 470,
+    "weight": 180,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999843215098
+  },
+  {
+    "id": 6,
+    "name": "새우베이컨버거",
+    "price": 5800,
+    "calory": 538,
+    "weight": 211,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999841882099
+  },
+  {
+    "id": 29,
+    "name": "터키 베이컨 버거",
+    "price": 6600,
+    "calory": 580,
+    "weight": 240,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999812820727
+  },
+  {
+    "id": 42,
+    "name": "썬드라이 토마토 버거",
+    "price": 4400,
+    "calory": 410,
+    "weight": 160,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999812820727
+  },
+  {
+    "id": 31,
+    "name": "허니 머스타드 치킨버거",
+    "price": 5300,
+    "calory": 490,
+    "weight": 195,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999724438675
+  },
+  {
+    "id": 62,
+    "name": "바실리코 치킨 버거",
+    "price": 6900,
+    "calory": 660,
+    "weight": 250,
+    "spicy": 0,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999471672117
+  },
+  {
+    "id": 55,
+    "name": "버팔로 치킨 버거",
+    "price": 6100,
+    "calory": 580,
+    "weight": 225,
+    "spicy": 1,
+    "order_count": 0,
+    "Priority": 0,
+    "Similarity": 0.9999999329766823
+  }
+]
