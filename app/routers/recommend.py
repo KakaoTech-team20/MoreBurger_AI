@@ -19,7 +19,6 @@ class UserPreferences(BaseModel):
     capacity: str
     createdAt: datetime
 
-
 @router.post("/recommend/")
 async def recommend(user_id: int):
     try:
