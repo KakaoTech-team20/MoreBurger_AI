@@ -15,7 +15,7 @@ COPY . .
 
 # Python 패키지를 설치 및 Uvicorn 설치
 RUN pip install --no-cache-dir -r requirements.txt && \
-    pip install uvicorn
+    pip install uvicorn pymysql
 
 # 애플리케이션 포트를 외부에 노출
 EXPOSE 8000
