@@ -25,14 +25,13 @@ Content-Type: application/json
 }
 
 ###
-
 # 챗봇 엔드포인트 테스트
 
-POST http://127.0.0.1:8000/api/chatbot
+POST http://127.0.0.1:8000/api/chatbot/1
 Content-Type: application/json
 
 {
-  "message": "너는 무엇을 하는 챗봇이니?"
+  "message": "내 맵기 선호도, 먹는 양을 기반으로 버거 1개만 추천해줘."
 }
 
 ###
