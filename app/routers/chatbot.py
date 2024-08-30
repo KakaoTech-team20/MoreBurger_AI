@@ -28,12 +28,3 @@ async def chat(user_id: int, request: ChatRequest):
         f"맵기 선호도: {user['spicy']}, "
         f"먹는 양: {user['capacity']}"
     )
-
-    try:
-        full_prompt = f"{user_info}\n{request.message}"
-        response = get_chatbot_response(full_prompt)
-
-        return {"response": response}
-
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))

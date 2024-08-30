@@ -17,6 +17,10 @@ app.include_router(chatbot.router, prefix="/api")
 async def root():
     return {"message": "Welcome to Burger Recommendation and Chatbot System"}
 
+@app.get("/ai")
+async def root():
+    return {"message": "Cloud Test"}
+
 
 @app.get("/hello/{name}")
 async def say_hello(name: str):
@@ -24,4 +28,4 @@ async def say_hello(name: str):
 
 # 실행
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000) # host = '127.0.0.1'
+    uvicorn.run(app, port=8000)

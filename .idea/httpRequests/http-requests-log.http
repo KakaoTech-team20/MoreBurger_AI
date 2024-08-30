@@ -1,0 +1,212 @@
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185848.200.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185833.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185656.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185503.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185451.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185329.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T185305.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T184952.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T184935.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T184924.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T184915.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T184715.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T183328.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/chatbot
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "message": "Hello, how are you?"
+}
+
+<> 2024-08-27T183230.200.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T183213.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/?user_id=1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T183034.500.json
+
+###
+
+POST http://localhost:8000/api/recommend/
+Content-Type: application/json
+Content-Length: 18
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "user_id": 1
+}
+
+<> 2024-08-27T182922.422.json
+
+###
+
+POST http://localhost:8000/api/recommend/user_id=1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T182855.404.json
+
+###
+
+POST http://localhost:8000/api/recommend/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T182810.404.json
+
+###
+
+POST http://localhost:8000/api/recommend/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-27T182737.422.json
+
+###
+
