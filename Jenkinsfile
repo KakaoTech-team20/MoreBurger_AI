@@ -48,7 +48,7 @@ pipeline {
                             docker pull ${ECR_REPO}:latest
                             docker stop ai_server || true
                             docker rm ai_server || true
-                            docker run -d --name ai_server -p 8000:8000 ${ECR_REPO}:latest
+                            docker run -d --env-file ~/.env --name ai_server -p 8000:8000 ${ECR_REPO}:latest
                             docker system prune -f 
                             docker image prune -f
                             '
