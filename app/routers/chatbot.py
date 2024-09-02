@@ -16,6 +16,13 @@ class ChatRequest(BaseModel):
     message: str
 
 
+@router.get("/chatbot/greeting/{user_id}")
+async def greet(user_id: int):
+    user = get_user_by_id(user_id)
+    user_nickname = user["nickname"]
+    response = f"안녕하세요, {user_nickname}님! 어떤 도움이 필요하신가요?"
+    return {"response": response}
+
 @router.post("/chatbot/{user_id}")
 async def chat(user_id: int, request: ChatRequest):
     # 사용자 데이터 가져오기

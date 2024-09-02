@@ -25,6 +25,12 @@ Content-Type: application/json
 }
 
 ###
+# 환영 인사 엔드포인트 테스트
+
+GET http://127.0.0.1:8000/api/chatbot/greeting/1
+Content-Type: application/json
+
+###
 # 챗봇 엔드포인트 테스트
 
 POST http://127.0.0.1:8000/api/chatbot/1
