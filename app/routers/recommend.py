@@ -1,4 +1,3 @@
-import pandas as pd
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
@@ -19,11 +18,14 @@ class UserPreferences(BaseModel):
     capacity: str
     createdAt: datetime
 
+class UserIdRequest(BaseModel):
+    user_id: int
+
 @router.post("/recommend/")
-async def recommend(user_id: int):
+async def recommend(request: UserIdRequest):
     try:
         # 데이터베이스에서 사용자 정보 가져오기
-        user = get_user_by_id(user_id)
+        user = get_user_by_id(request.user_id)
 
         if user is None:
             raise HTTPException(status_code=404, detail="User not found")
