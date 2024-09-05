@@ -21,9 +21,10 @@ client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # 사용자 메세지를 받기 위한 Pydantic 모델 정의
 class ChatRequest(BaseModel):
-    user_email: int
+    user_email: str
     message: str
     thread_id: str
+    assistant_id: str
 
 # 창이 열리면 불리는 api, 대화 시작 메세지 주면서 스레드 시작 (스레드 id도 전달하기)
 @router.get("/start/")
@@ -32,7 +33,8 @@ async def startchat():
         vector_store, assistant = retrieve_assistant()
         assistant_reply, thread_id = start_conversation_with_assistant(assistant)
         # 이 부분은 항상 assistant_reply가 "무엇을 도와들리까요?"이다 -> 이렇게 하는 이유는, 스레드 id로 이어지는 대화를 가능하게 하기 위해
-        return assistant_reply, thread_id
+        print("Thread id & Assistant id: ", thread_id, assistant.id)
+        return assistant_reply, thread_id, assistant.id
 
     except Exception as e:
         print(f"Error starting conversation: {e}")
@@ -42,15 +44,16 @@ async def startchat():
 async def chat(request: ChatRequest):
     try:
         # 사용자 데이터 가져오기
-        thread_id, user_email, message = request.user_email, request.message, request.thread_id
-        print(f"User Email: {user_email}")
-        print(f"Message: {message}")
-        print(f"Thread ID: {thread_id}")
+        thread_id, assistant_id = request.thread_id, request.assistant_id
+        user_email, message = request.user_email, request.message
+        # print(f"User Email: {user_email}")
+        # print(f"Message: {message}")
+        # print(f"Thread ID: {thread_id}")
 
         burger_df = get_all_burgers()
         burger_df.to_csv("burger_data.txt", index=False)
 
-        assistant_reply, thread_id = create_conversation_with_assistant(message, thread_id)
+        assistant_reply, thread_id = create_conversation_with_assistant(message, thread_id, assistant_id)
 
         return {"assistant_reply": assistant_reply, "thread_id": thread_id}
 

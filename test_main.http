@@ -38,5 +38,7 @@ Content-Type: application/json
 
 {
   "user_email": "johyun251602@naver.com",
-  "message": "색다른 버거 추천해줘."
+  "message": "색다른 버거 추천해줘.",
+  "thread_id": "thread_wLiXoatX5Una5ZiHD4A82HHr",
+  "assistant_id": "asst_JR7zBXnLYraebcyRmKXrKU1o"
 }

@@ -28,6 +28,7 @@ def retrieve_assistant():
     except Exception as e:
         return f"Error retrieving assistant: {str(e)}"
 
+
 def start_conversation_with_assistant(assistant):
     try:
         # 새로운 대화 스레드 생성
@@ -61,7 +62,8 @@ def start_conversation_with_assistant(assistant):
     except Exception as e:
         raise Exception(f"Error during conversation: {str(e)}")
 
-def create_conversation_with_assistant(message: str, thread_id):
+
+def create_conversation_with_assistant(message: str, thread_id, assistant_id):
     try:
         # 메세지를 스레드에 추가
         message = client.beta.threads.messages.create(
@@ -72,7 +74,8 @@ def create_conversation_with_assistant(message: str, thread_id):
 
         # assistant와 대화 실행
         run = client.beta.threads.runs.create(
-            thread_id=thread_id
+            thread_id=thread_id,
+            assistant_id=assistant_id
         )
 
         # 대화가 완료될 때까지 상태 확인
