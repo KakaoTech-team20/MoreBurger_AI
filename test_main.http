@@ -25,13 +25,20 @@ Content-Type: application/json
 }
 
 ###
-# 챗봇 엔드포인트 테스트
+# 챗봇 시작 메세지 테스트
 
-POST http://127.0.0.1:8000/api/chatbot/1
+GET http://127.0.0.1:8000/api/start/
+Content-Type: application/json
+
+###
+# 챗봇 대화 테스트
+
+POST http://127.0.0.1:8000/api/chatbot/
 Content-Type: application/json
 
 {
-  "message": "내 맵기 선호도, 먹는 양을 기반으로 버거 1개만 추천해줘."
+  "user_email": "johyun251602@naver.com",
+  "message": "색다른 버거 추천해줘.",
+  "thread_id": "thread_wLiXoatX5Una5ZiHD4A82HHr",
+  "assistant_id": "asst_JR7zBXnLYraebcyRmKXrKU1o"
 }
-
-###
